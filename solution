@@ -1,0 +1,8 @@
+function songDecoder(song){
+  var result = song.replace(/[W]U[B]/g, " ")
+  var final = result.replace(/\s+/g, " ");
+   return final.trim();
+}
+
+//songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB");
+songDecoder("AWUBWUBWUBBWUBWUBWUBC");
